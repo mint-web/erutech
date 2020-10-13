@@ -1,8 +1,8 @@
-# portfolio01 : GURO-Guro  District Office
+# portfolio02 : EruTech
 
-Renewed main page of GURO-Guro  District Office
+Clone Coding main page of EruTech
 
  * html5 /css3
- * web accessibility / W3C
- * responsive
- * jquery
+ * semantic
+ * javascript es6
+ * json
