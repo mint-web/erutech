@@ -5,9 +5,7 @@ class Slider {
 	}
 	init(name, time) {
 		this.index = 0;
-		this.activeIndex = 0;
 		this.slides = document.querySelectorAll(`${name}`);
-		this.items = document.querySelectorAll('[data-index]');
 		this.timer = setInterval(() => {
 			this.autoPlay();
 		}, time);
@@ -19,6 +17,7 @@ class Slider {
 			this.slides.length - 1;
 		}
 		this.changeSlide();
+		this.sliderText();
 	}
 	nextSlide() {
 		if (this.index === this.slides.length - 1) {
@@ -27,6 +26,7 @@ class Slider {
 			this.index++;
 		}
 		this.changeSlide();
+		this.sliderText();
 	}
 	changeSlide() {
 		this.slides.forEach((slide) => {
@@ -34,9 +34,18 @@ class Slider {
 		});
 		this.slides[this.index].classList.add('active');
 	}
-
 	autoPlay() {
 		this.nextSlide();
+	}
+	sliderText() {
+		const current = document.querySelectorAll('.main_visual .pager .current');
+		current.forEach((item) => {
+			const number = this.index + 1;
+			const leadingZero = () => {
+				return this.index < 10 ? '0' + number : number
+			}
+			item.innerText = leadingZero``;
+		})
 	}
 }
 
