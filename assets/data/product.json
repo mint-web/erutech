@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "CCTV CAMERA<br>WINDOW, DOME",
+    "photo": "assets/images/main/m_area01.jpg"
+  },
+  {
+    "id": 2,
+    "title": "각종 장비의<br>Lens Window",
+    "photo": "assets/images/main/m_area02.jpg"
+  },
+  {
+    "id": 3,
+    "title": "안전용품<br>각종 Shield",
+    "photo": "assets/images/main/m_area03.jpg"
+  },
+  {
+    "id": 4,
+    "title": "산업용 마스크",
+    "photo": "assets/images/main/m_area04.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Display Window,<br>Display Back Lite<br>Antifog Film",
+    "photo": "assets/images/main/m_area05.jpg"
+  },
+  {
+    "id": 6,
+    "title": "욕실용 거울,<br>냉장고 및 온장고<br>김서림방지 DOOR",
+    "photo": "assets/images/main/m_area06.jpg"
+  },
+  {
+    "id": 7,
+    "title": "의료분야 Surgical<br>Mask Shield<br>Face Shield etc.",
+    "photo": "assets/images/main/m_area07.jpg"
+  }
+]
